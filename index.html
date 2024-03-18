@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GEMAS Y JOYAS GG</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+
+<body>
+    <header>
+        <div class="header-content">
+            <img src="./imagenes/logo2.webp" alt="Logo GEMAS GG" class="logo">
+            <h1>GEMAS Y JOYAS GG</h1>
+            <div class="header-buttons">
+                <button onclick="location.href='login.html';">Iniciar Sesión</button>
+                <button onclick="location.href='cart.html';">Carrito</button>
+            </div>
+        </div>
+    </header>
+
+    <div class="descripcion-tienda">
+        <h2>Bienvenidos a GEMAS GG</h2>
+        <p>
+            En GEMAS GG, descubrirás una colección única de joyas y accesorios seleccionados
+            con pasión y cuidado. Desde <strong>anillos deslumbrantes</strong> y <strong>cadenas elegantes</strong>,
+            hasta <strong>aros sofisticados</strong> y <strong>pulseras delicadas</strong>, cada pieza en nuestra
+            colección es una celebración de la belleza y la artesanía. Sumérgete en el
+            encanto de nuestras <strong>joyas de plata</strong>, <strong>oro laminado</strong>, y las últimas
+            tendencias en <strong>relojes</strong> y <strong>piercings</strong>. GEMAS GG es tu destino
+            para encontrar ese regalo perfecto o darte un merecido capricho.
+        </p>
+    </div>
+
+    <div class="botones-contenedor">
+        <a href="./paginas/nuevas.html" class="boton-estilo">Nuevas Colecciones</a>
+        <a href="./paginas/mas-vendidos.html" class="boton-estilo">Más Vendidos</a>
+        <a href="./paginas/ofertas.html" class="boton-estilo">Ofertas Especiales</a>
+        <a href="./paginas/personalizacion.html" class="boton-estilo">Personalización</a>
+        <a href="./paginas/galeria-clientes.html" class="boton-estilo">Galería de Clientes</a>
+    </div>
+    
+
+
+
+    <div class="galeria">
+        <div class="producto">
+            <p class="nombre-producto">Aguamarina</p>
+            <div class="contenedor-imagen">
+                <img src="./imagenes/aguamarina.webp" alt="Aguamarina" class="imagen-producto">
+                <button class="boton-detalles">Más detalles</button>
+            </div>
+            <p class="precio-producto">$999</p>
+            <div class="controles-cantidad">
+                <button class="boton-cantidad menos" onclick="cambiarCantidad(this, -1)">-</button>
+                <span class="cantidad">0</span>
+                <button class="boton-cantidad mas" onclick="cambiarCantidad(this, 1)">+</button>
+            </div>
+            <button class="agregar-carrito">Agregar al carrito</button>
+        </div>
+        <div class="producto">
+            <p class="nombre-producto">Amatista</p>
+            <div class="contenedor-imagen">
+                <img src="./imagenes/amatista.webp" alt="Amatista" class="imagen-producto">
+                <button class="boton-detalles">Más detalles</button>
+            </div>
+            <p class="precio-producto">$999</p>
+            <div class="controles-cantidad">
+                <button class="boton-cantidad menos" onclick="cambiarCantidad(this, -1)">-</button>
+                <span class="cantidad">0</span>
+                <button class="boton-cantidad mas" onclick="cambiarCantidad(this, 1)">+</button>
+            </div>
+            <button class="agregar-carrito">Agregar al carrito</button>
+        </div>
+        <div class="producto">
+            <p class="nombre-producto">Ambar</p>
+            <div class="contenedor-imagen">
+                <img src="./imagenes/Ámbar.webp" alt="Ambar" class="imagen-producto">
+                <button class="boton-detalles">Más detalles</button>
+            </div>
+            <p class="precio-producto">$999</p>
+            <div class="controles-cantidad">
+                <button class="boton-cantidad menos" onclick="cambiarCantidad(this, -1)">-</button>
+                <span class="cantidad">0</span>
+                <button class="boton-cantidad mas" onclick="cambiarCantidad(this, 1)">+</button>
+            </div>
+            <button class="agregar-carrito">Agregar al carrito</button>
+        </div>
+        <div class="producto">
+            <p class="nombre-producto">Diamante</p>
+            <div class="contenedor-imagen">
+                <img src="./imagenes/diamante.webp" alt="Diamante" class="imagen-producto">
+                <button class="boton-detalles">Más detalles</button>
+            </div>
+            <p class="precio-producto">$999</p>
+            <div class="controles-cantidad">
+                <button class="boton-cantidad menos" onclick="cambiarCantidad(this, -1)">-</button>
+                <span class="cantidad">0</span>
+                <button class="boton-cantidad mas" onclick="cambiarCantidad(this, 1)">+</button>
+            </div>
+            <button class="agregar-carrito">Agregar al carrito</button>
+        </div>
+        <div class="producto">
+            <p class="nombre-producto">Esmeralda</p>
+            <div class="contenedor-imagen">
+                <img src="./imagenes/esmeralda.webp" alt="Esmeralda" class="imagen-producto">
+                <button class="boton-detalles">Más detalles</button>
+            </div>
+            <p class="precio-producto">$999</p>
+            <div class="controles-cantidad">
+                <button class="boton-cantidad menos" onclick="cambiarCantidad(this, -1)">-</button>
+                <span class="cantidad">0</span>
+                <button class="boton-cantidad mas" onclick="cambiarCantidad(this, 1)">+</button>
+            </div>
+            <button class="agregar-carrito">Agregar al carrito</button>
+        </div>
+        <div class="producto">
+            <p class="nombre-producto">Fluorita</p>
+            <div class="contenedor-imagen">
+                <img src="./imagenes/fluorita.webp" alt="Fluorita" class="imagen-producto">
+                <button class="boton-detalles">Más detalles</button>
+            </div>
+            <p class="precio-producto">$999</p>
+            <div class="controles-cantidad">
+                <button class="boton-cantidad menos" onclick="cambiarCantidad(this, -1)">-</button>
+                <span class="cantidad">0</span>
+                <button class="boton-cantidad mas" onclick="cambiarCantidad(this, 1)">+</button>
+            </div>
+            <button class="agregar-carrito">Agregar al carrito</button>
+        </div>
+        <div class="producto">
+            <p class="nombre-producto">Granate</p>
+            <div class="contenedor-imagen">
+                <img src="./imagenes/granate.webp" alt="Granate" class="imagen-producto">
+                <button class="boton-detalles">Más detalles</button>
+            </div>
+            <p class="precio-producto">$999</p>
+            <div class="controles-cantidad">
+                <button class="boton-cantidad menos" onclick="cambiarCantidad(this, -1)">-</button>
+                <span class="cantidad">0</span>
+                <button class="boton-cantidad mas" onclick="cambiarCantidad(this, 1)">+</button>
+            </div>
+            <button class="agregar-carrito">Agregar al carrito</button>
+        </div>
+        <div class="producto">
+            <p class="nombre-producto">Onyx</p>
+            <div class="contenedor-imagen">
+                <img src="./imagenes/onyx.webp" alt="Onyx" class="imagen-producto">
+                <button class="boton-detalles">Más detalles</button>
+            </div>
+            <p class="precio-producto">$999</p>
+            <div class="controles-cantidad">
+                <button class="boton-cantidad menos" onclick="cambiarCantidad(this, -1)">-</button>
+                <span class="cantidad">0</span>
+                <button class="boton-cantidad mas" onclick="cambiarCantidad(this, 1)">+</button>
+            </div>
+            <button class="agregar-carrito">Agregar al carrito</button>
+        </div>
+        <div class="producto">
+            <p class="nombre-producto">Opalo</p>
+            <div class="contenedor-imagen">
+                <img src="./imagenes/opalo.webp" alt="Opalo" class="imagen-producto">
+                <button class="boton-detalles">Más detalles</button>
+            </div>
+            <p class="precio-producto">$999</p>
+            <div class="controles-cantidad">
+                <button class="boton-cantidad menos" onclick="cambiarCantidad(this, -1)">-</button>
+                <span class="cantidad">0</span>
+                <button class="boton-cantidad mas" onclick="cambiarCantidad(this, 1)">+</button>
+            </div>
+            <button class="agregar-carrito">Agregar al carrito</button>
+        </div>
+        <div class="producto">
+            <p class="nombre-producto">Rubi</p>
+            <div class="contenedor-imagen">
+                <img src="./imagenes/rubi.webp" alt="Rubi" class="imagen-producto">
+                <button class="boton-detalles">Más detalles</button>
+            </div>
+            <p class="precio-producto">$999</p>
+            <div class="controles-cantidad">
+                <button class="boton-cantidad menos" onclick="cambiarCantidad(this, -1)">-</button>
+                <span class="cantidad">0</span>
+                <button class="boton-cantidad mas" onclick="cambiarCantidad(this, 1)">+</button>
+            </div>
+            <button class="agregar-carrito">Agregar al carrito</button>
+        </div>
+        <div class="producto">
+            <p class="nombre-producto">Tanzanita</p>
+            <div class="contenedor-imagen">
+                <img src="./imagenes/tanzanita.webp" alt="Tanzanita" class="imagen-producto">
+                <button class="boton-detalles">Más detalles</button>
+            </div>
+            <p class="precio-producto">$999</p>
+            <div class="controles-cantidad">
+                <button class="boton-cantidad menos" onclick="cambiarCantidad(this, -1)">-</button>
+                <span class="cantidad">0</span>
+                <button class="boton-cantidad mas" onclick="cambiarCantidad(this, 1)">+</button>
+            </div>
+            <button class="agregar-carrito">Agregar al carrito</button>
+        </div>
+        <div class="producto">
+            <p class="nombre-producto">Zafiro</p>
+            <div class="contenedor-imagen">
+                <img src="./imagenes/zafiro.webp" alt="Zafiro" class="imagen-producto">
+                <button class="boton-detalles">Más detalles</button>
+            </div>
+            <p class="precio-producto">$999</p>
+            <div class="controles-cantidad">
+                <button class="boton-cantidad menos" onclick="cambiarCantidad(this, -1)">-</button>
+                <span class="cantidad">0</span>
+                <button class="boton-cantidad mas" onclick="cambiarCantidad(this, 1)">+</button>
+            </div>
+            <button class="agregar-carrito">Agregar al carrito</button>
+        </div>
+    </div> 
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>SOBRE NOSOTROS</h3>
+                <ul>
+                    <li><a href="./paginas/quienes-somos.html">Quiénes somos</a></li>
+                    <li><a href="#que-hacemos">Qué hacemos</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="./paginas/sucursal.html">Sucursal</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>SERVICIO AL CLIENTE</h3>
+                <ul>
+                    <li><a href="#faq">Preguntas frecuentes</a></li>
+                    <li><a href="#despacho">Despacho</a></li>
+                    <li><a href="#politicas-privacidad">Políticas de privacidad</a></li>
+                    <li><a href="#terminos-condiciones">Términos y condiciones</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li><a href="#denuncias">Denuncias</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>PRODUCTOS</h3>
+                <ul>
+                    <li><a href="#anillos">Anillos</a></li>
+                    <li><a href="#cadenas">Cadenas</a></li>
+                    <li><a href="#aros">Aros</a></li>
+                    <li><a href="#pulseras">Pulseras</a></li>
+                    <li><a href="#colgantes">Colgantes</a></li>
+                    <li><a href="#piercing">Piercing</a></li>
+                    <li><a href="#relojes">Relojes</a></li>
+                    <li><a href="#oro-laminado">Oro Laminado</a></li>
+                    <li><a href="#joyas-plata">Joyas de plata</a></li>
+                    <li><a href="#Metales-raros">Metales raros</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>CLIENTE</h3>
+                <ul>
+                    <li><a href="#iniciar-sesion">Iniciar Sesión</a></li>
+                    <li><a href="#registrarme">Registrarme</a></li>
+                    <li><a href="#recuperar-contrasena">Recuperar Contraseña</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    
+</body>
+</html>

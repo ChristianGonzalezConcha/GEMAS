@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalización</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <a href="../index.html"> <img src="../imagenes/logo2.webp" alt="Logo GEMAS GG" class="logo"></a>
+            <h1>GEMAS Y JOYAS GG</h1>
+            <div class="header-buttons">
+                <button onclick="location.href='../index.html';">Home</button>
+                <button onclick="location.href='login.html';">Iniciar Sesión</button>
+                <button onclick="location.href='cart.html';">Carrito</button>
+            </div>
+        </div>
+    </header>
+
+    <div class="botones-contenedor">
+        <a href="./nuevas.html" class="boton-estilo">Nuevas Colecciones</a>
+        <a href="./mas-vendidos.html" class="boton-estilo">Más Vendidos</a>
+        <a href="./ofertas.html" class="boton-estilo">Ofertas Especiales</a>
+        <a href="./personalizacion.html" class="boton-estilo">Personalización</a>
+        <a href="./galeria-clientes.html" class="boton-estilo">Galería de Clientes</a>
+    </div>
+
+    <div class="descripcion-mas-vendidos">
+
+        <p>En esta página los clientes tienen la oportunidad única de crear joyas a su medida, expresando su estilo personal o conmemorando momentos especiales. Aquí, pueden especificar detalles como el tipo de joya, materiales, diseño y tamaño, para que cada pieza sea exactamente como la imaginan. Además de seleccionar gemas y metales raros, los clientes pueden cargar inspiraciones de diseño o describir sus ideas para que nuestro equipo de artesanos expertos las haga realidad. Esta sección es un puente directo entre la imaginación del cliente y la artesanía excepcional de GEMAS Y JOYAS GG, asegurando una pieza única y personal que será atesorada por siempre.</p>
+    </div>
+    
+
+ <div class="formulario-container">
+    <h2>Solicitud de Pedido Personalizado</h2>
+    <form action="enviar-solicitud.php" method="post">
+        <label for="nombre">Nombre completo:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="telefono">Teléfono de contacto:</label>
+        <input type="tel" id="telefono" name="telefono">
+
+        <label for="tipo-producto">¿Qué tipo de joya o material estás buscando?</label>
+        <input type="text" id="tipo-producto" name="tipo_producto" required>
+
+        <label for="cantidad">Cantidad deseada:</label>
+        <input type="number" id="cantidad" name="cantidad" min="1" required>
+
+        <label for="material">Material preferido:</label>
+        <select id="material" name="material">
+            <option value="oro">Oro</option>
+            <option value="plata">Plata</option>
+            <option value="platino">Platino</option>
+            <option value="otro">Otro</option>
+        </select>
+
+        <label for="tamanio">Tamaño o dimensiones (si aplica):</label>
+        <input type="text" id="tamanio" name="tamanio">
+
+        <label for="diseno">Descripción del diseño o requisitos específicos:</label>
+        <textarea id="diseno" name="diseno" rows="4" required></textarea>
+
+        <label for="inspiracion">Enlaces de inspiración o referencias (opcional):</label>
+        <input type="url" id="inspiracion" name="inspiracion">
+
+        <label for="fecha-entrega">Fecha de entrega deseada:</label>
+        <input type="date" id="fecha-entrega" name="fecha_entrega" required>
+
+        <button type="submit">Enviar Solicitud</button>
+    </form>
+</div>
+
+
+
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>SOBRE NOSOTROS</h3>
+                <ul>
+                    <li><a href="./quienes-somos.html">Quiénes somos</a></li>
+                    <li><a href="#que-hacemos">Qué hacemos</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="./sucursal.html">Sucursal</a></li>                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>SERVICIO AL CLIENTE</h3>
+                <ul>
+                    <li><a href="#faq">Preguntas frecuentes</a></li>
+                    <li><a href="#despacho">Despacho</a></li>
+                    <li><a href="#politicas-privacidad">Políticas de privacidad</a></li>
+                    <li><a href="#terminos-condiciones">Términos y condiciones</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li><a href="#denuncias">Denuncias</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>PRODUCTOS</h3>
+                <ul>
+                    <li><a href="#anillos">Anillos</a></li>
+                    <li><a href="#cadenas">Cadenas</a></li>
+                    <li><a href="#aros">Aros</a></li>
+                    <li><a href="#pulseras">Pulseras</a></li>
+                    <li><a href="#colgantes">Colgantes</a></li>
+                    <li><a href="#piercing">Piercing</a></li>
+                    <li><a href="#relojes">Relojes</a></li>
+                    <li><a href="#oro-laminado">Oro Laminado</a></li>
+                    <li><a href="#joyas-plata">Joyas de plata</a></li>
+                    <li><a href="#Metales-raros">Metales raros</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>CLIENTE</h3>
+                <ul>
+                    <li><a href="#iniciar-sesion">Iniciar Sesión</a></li>
+                    <li><a href="#registrarme">Registrarme</a></li>
+                    <li><a href="#recuperar-contrasena">Recuperar Contraseña</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>  

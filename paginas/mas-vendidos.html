@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Más Vendidos</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <a href="../index.html"> <img src="../imagenes/logo2.webp" alt="Logo GEMAS GG" class="logo"></a>
+            <h1>GEMAS Y JOYAS GG</h1>
+            <div class="header-buttons">
+                <button onclick="location.href='../index.html';">Home</button>
+                <button onclick="location.href='login.html';">Iniciar Sesión</button>
+                <button onclick="location.href='cart.html';">Carrito</button>
+            </div>
+        </div>
+    </header>
+
+    <div class="botones-contenedor">
+        <a href="./nuevas.html" class="boton-estilo">Nuevas Colecciones</a>
+        <a href="./mas-vendidos.html" class="boton-estilo">Más Vendidos</a>
+        <a href="./ofertas.html" class="boton-estilo">Ofertas Especiales</a>
+        <a href="./personalizacion.html" class="boton-estilo">Personalización</a>
+        <a href="./galeria-clientes.html" class="boton-estilo">Galería de Clientes</a>
+    </div>
+
+    <div class="descripcion-mas-vendidos">
+        <h2>Nuestros Productos Más Vendidos</h2>
+        <p>La página secundaria "Más Vendidos" de GEMAS Y JOYAS GG es el escaparate de nuestras joyas y accesorios más populares y apreciados por nuestros clientes. Cada pieza aquí representada ha sido seleccionada por su excepcional belleza, calidad superior, y por ser especialmente codiciada entre nuestra distinguida clientela. Sumérgete en la colección de nuestros bestsellers y déjate inspirar por las tendencias actuales y los diseños atemporales que han capturado corazones. Elegir de esta selección garantiza que estás invirtiendo en una pieza no solo de gran valor y exclusividad sino también altamente deseada por conocedores y aficionados de la joyería. Descubre por qué estos ítems son los favoritos y permite que la excelencia probada de nuestros más vendidos se convierta en parte de tu historia personal.</p>
+    </div>    
+    
+
+    <div class="galeria">
+        <div class="producto">
+            <p class="nombre-producto">Joyas de Oro</p>
+            <div class="contenedor-imagen">
+                <img src="../imagenes/joyas.webp" alt="Joyas" class="imagen-producto">
+                <button class="boton-detalles">Más detalles</button>
+            </div>
+            <p class="precio-producto">$999</p>
+            <p>Comprar joyas de oro mezcla placer estético con inversión financiera. Más que un metal precioso, el valor de las joyas incluye diseño y artesanía, pudiendo apreciarse con el tiempo. Es una forma tangible y disfrutable de diversificar activos.</p>
+            <div class="controles-cantidad">
+                <button class="boton-cantidad menos" onclick="cambiarCantidad(this, -1)">-</button>
+                <span class="cantidad">0</span>
+                <button class="boton-cantidad mas" onclick="cambiarCantidad(this, 1)">+</button>
+            </div>
+            <button class="agregar-carrito">Agregar al carrito</button>
+        </div>
+        <div class="producto">
+            <p class="nombre-producto">Lingote de Oro</p>
+            <div class="contenedor-imagen">
+                <img src="../imagenes/oro.webp" alt="Lingotes de oro" class="imagen-producto">
+                <button class="boton-detalles">Más detalles</button>
+            </div>
+            <p class="precio-producto">$999</p>
+            <p>Invertir en oro en lingotes es una estrategia sólida para proteger el valor de tu patrimonio. Ofrece una cobertura contra la inflación y diversifica tu portafolio. Su valor intrínseco y liquidez global lo convierten en una opción atractiva para inversores que buscan estabilidad a largo plazo.</p>
+            <div class="controles-cantidad">
+                <button class="boton-cantidad menos" onclick="cambiarCantidad(this, -1)">-</button>
+                <span class="cantidad">0</span>
+                <button class="boton-cantidad mas" onclick="cambiarCantidad(this, 1)">+</button>
+            </div>
+            <button class="agregar-carrito">Agregar al carrito</button>
+        </div>
+        <div class="producto">
+            <p class="nombre-producto">Lingote de Plata</p>
+            <div class="contenedor-imagen">
+                <img src="../imagenes/plata.webp" alt="Lingote de Plata" class="imagen-producto">
+                <button class="boton-detalles">Más detalles</button>
+            </div>
+            <p class="precio-producto">$999</p>
+            <p>La plata combina inversión y utilidad industrial, haciéndola volátil pero prometedora. Es accesible, tiene demanda constante en tecnología y energía renovable, y sirve como una opción de inversión diversificada y asequible frente a la inflación.</p>
+            <div class="controles-cantidad">
+                <button class="boton-cantidad menos" onclick="cambiarCantidad(this, -1)">-</button>
+                <span class="cantidad">0</span>
+                <button class="boton-cantidad mas" onclick="cambiarCantidad(this, 1)">+</button>
+            </div>
+            <button class="agregar-carrito">Agregar al carrito</button>
+        </div>
+        </div>
+
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>SOBRE NOSOTROS</h3>
+                <ul>
+                    <li><a href="./quienes-somos.html">Quiénes somos</a></li>
+                    <li><a href="#que-hacemos">Qué hacemos</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="./sucursal.html">Sucursal</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>SERVICIO AL CLIENTE</h3>
+                <ul>
+                    <li><a href="#faq">Preguntas frecuentes</a></li>
+                    <li><a href="#despacho">Despacho</a></li>
+                    <li><a href="#politicas-privacidad">Políticas de privacidad</a></li>
+                    <li><a href="#terminos-condiciones">Términos y condiciones</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li><a href="#denuncias">Denuncias</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>PRODUCTOS</h3>
+                <ul>
+                    <li><a href="#anillos">Anillos</a></li>
+                    <li><a href="#cadenas">Cadenas</a></li>
+                    <li><a href="#aros">Aros</a></li>
+                    <li><a href="#pulseras">Pulseras</a></li>
+                    <li><a href="#colgantes">Colgantes</a></li>
+                    <li><a href="#piercing">Piercing</a></li>
+                    <li><a href="#relojes">Relojes</a></li>
+                    <li><a href="#oro-laminado">Oro Laminado</a></li>
+                    <li><a href="#joyas-plata">Joyas de plata</a></li>
+                    <li><a href="#Metales-raros">Metales raros</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>CLIENTE</h3>
+                <ul>
+                    <li><a href="#iniciar-sesion">Iniciar Sesión</a></li>
+                    <li><a href="#registrarme">Registrarme</a></li>
+                    <li><a href="#recuperar-contrasena">Recuperar Contraseña</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>  
